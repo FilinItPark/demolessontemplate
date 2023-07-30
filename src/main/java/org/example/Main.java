@@ -12,7 +12,7 @@ public class Main {
             botsApi.registerBot(bot);
             System.out.println("Bot is running...");
         } catch (TelegramApiException e) {
-            e.printStackTrace();
+            System.out.println("Ошибка. " + e);
         }
     }
 }
